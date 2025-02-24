@@ -14,7 +14,7 @@ def fetch(st):
         soup=BeautifulSoup(rtext,'html.parser')
         tbody=soup.find('tbody', {'id': 'knowClsSectionModalTableDate'})
         if tbody is None:
-            print(f"PRN: {prn} fetch unsuccessful")
+            print(f"PRN: {sprn} fetch unsuccessful")
             st+=10
             continue
         # print(tbody)
