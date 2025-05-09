@@ -1,4 +1,4 @@
-This project gets all the available data from the "Know your Class and Section" on the pesuacademy website.
+This project (now deprecated) gets all the available data from the "Know your Class and Section"'s API using a post request on the pesuacademy website (which has since been taken down).
 Implemented using bs4 and requests, unlike the previous one which was based on selenium.
 A much faster version is implemented using threading.
 
